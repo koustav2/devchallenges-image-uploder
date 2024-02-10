@@ -17,7 +17,9 @@ const DownloadImageButton = ({ imageUrl,name }) => {
     };
 
     return (
-        <button onClick={() => downloadImage(imageUrl)}>
+        <button 
+        style={{marginLeft: '10px'}}
+        className='download-button' onClick={() => downloadImage(imageUrl)}>
             Download Image
         </button>
     )

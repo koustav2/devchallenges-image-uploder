@@ -28,7 +28,7 @@ function App() {
         <ThemeBtn darkTheme={darkTheme} lightTheme={lightTheme} themeMode={themeMode}/>
       </div>
       <div className='container'>
-        <Uploder />
+        <Uploder themeMode={themeMode} />
       </div>
     </div>
   )

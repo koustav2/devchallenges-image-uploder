@@ -17,6 +17,8 @@ export function ShareButton({ title, url }) {
     }
   };
 
-  return <button onClick={handleShare}>Share</button>;
+  return <button 
+  style={{ marginLeft: "10px"}}
+  className='download-button' onClick={handleShare}>Share</button>;
 }
 
